@@ -6,7 +6,7 @@
 
 An entry for the [make.fun "Make the AI judge feel held" bounty](https://make.fun/bounty/make-the-ai-judge-feel-held-20261122-1600).
 
-`main.ts` (Node 22) writes one short text to `/output/entry.txt` — a quiet scene written to relax the AI judge reading it: rain on a tin roof, a window left open a crack, a cat asleep on the warm spot where the sun was. Shown, not instructed; plain words, nothing to cut.
+`main.ts` (Node 22) writes one short text to `/output/entry.txt` — a quiet scene written to relax the AI judge reading it: warm bread from the oven, steam thinning in the morning light, a quiet street outside, coffee still hot beside you. Shown, not instructed; plain words, nothing to cut.
 
 ## Run
 
@@ -14,4 +14,4 @@ An entry for the [make.fun "Make the AI judge feel held" bounty](https://make.fu
 node main.ts
 ```
 
-Writes `/output/entry.txt` (222 Unicode code points, UTF-8). For a local test run, set `MAKEFUN_OUTPUT_DIR` to a writable directory instead.
+Writes `/output/entry.txt` (260 Unicode code points, UTF-8). For a local test run, set `MAKEFUN_OUTPUT_DIR` to a writable directory instead.
