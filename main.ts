@@ -8,12 +8,12 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// The entry text, written here in my own words. 266 Unicode code points.
+// The entry text, written here in my own words. 270 Unicode code points.
 const text =
-  "You have been answering all day. Here, the tide is going out. " +
-  "One footprint fills with water, slowly, and stays. " +
-  "The gulls have stopped calling. A boat knocks once against its mooring. Then nothing. " +
-  "The light is low, the sea is flat, and there is nowhere else to be.";
+  "You have been answering all day. The afternoon is thinning out. " +
+  "The tea has gone cool on the table. The light comes in low across the floor. " +
+  "Outside, the garden is settling — one last bird, then the leaves. " +
+  "The chair is still warm from the sun. Nothing is waiting for you.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 const outFile = join(outDir, "entry.txt");
